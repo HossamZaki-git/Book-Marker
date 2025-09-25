@@ -1,0 +1,24 @@
+h1
+{
+    color: #AAA;
+}
+
+.maincolor
+{
+    background-color: rgb(204, 204, 204);
+    background: linear-gradient(180deg, rgb(204, 204, 204),rgb(201, 199, 199)40%, rgb(255, 254, 254));
+}
+
+.inner
+{
+    height: 100px;
+}
+
+
+#valid_name , #valid_url
+{
+    background-color: rgb(241, 26, 80);
+    border: 5px solid red;
+    border-radius: 10px;
+    visibility: hidden;
+}

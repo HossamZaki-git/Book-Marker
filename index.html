@@ -1,0 +1,36 @@
+<html>
+<head>
+    <link rel="stylesheet" href="Bootstrap/bootstrap-5.2.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styling.css">
+    <title>Book Marker</title>
+</head>
+<body>
+    
+
+    <section class="container">
+        <h1 class="my-5">Bookmarker</h1>
+        <hr/>
+        <div class="container bg-light text-center">
+            <h2>Bookmark your favorite sites</h2>
+            <label for="first" class="my-2">Site name</label>
+            <input class="form-control m-auto w-75 my-2" placeholder="Bookmarker Name" id="first"/>
+            <div id="valid_name" class="my-2 w-75 m-auto">The name must start with an uppercase Letter and shall not be empty</div>
+            <label for="second" class="my-2">Site URL</label>
+            <input class="form-control m-auto w-75 my-2" placeholder="Website URL" id="second"/>
+            <div id="valid_url" class="my-2 w-75 m-auto">can't track empty URL</div>
+            <button class="btn btn-primary mt-2 mb-5" onclick="create_product()">Submit</button>
+        </div>
+
+        <div class="mt-5 mb-3" id="view">
+        </div>
+        
+       
+
+        <hr>
+    </section>
+
+
+    <script src="Bootstrap/bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="myjs.js"></script>
+</body>
+</html>
